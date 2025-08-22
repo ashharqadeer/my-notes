@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <form style=" font-family: verdana; text-align: center;">
+        <fieldset width = "50%" style="border: 3px outset black; border-radius: 10px; padding: 20px; background-color: #f0f0f0;">
+            <legend style="padding: 5px 15px; border: 2px outset black; border-radius: 8px; background: #f9f9f9; display: inline-block;">Personal Information</legend>
+            
+            <br>
+        <label for="name">Name </label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name">
+        <br><br>
+
+        <label for="password">password </label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password">
+        <br><br>
+
+        <label for="message">Message </label>
+        <input type="message"  id="message" name="message" required placeholder="Enter your message">
+        <br><br>
+
+        <label><u>Gender</u> </label>
+        <br><br><label for="male">Male</label>
+        <input type="radio" id="male" name="Gender" value="male" required>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="Gender" value="female" required>
+        <br><br>
+
+        <label for="Hobbies"><u>Hobbies</u> </label>
+        <br> <br><label for="reading">Reading</label>
+        <input type="checkbox" id="reading" name="Hobbies" value="reading">
+        <label for="traveling">Traveling</label>
+        <input type="checkbox" id="traveling" name="Hobbies" value="traveling">
+        <label for="gaming">Gaming</label>
+        <input type="checkbox" id="gaming" name="Hobbies" value="gaming">
+        <br><br>
+
+        <label for="email">Email </label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+        <br><br>
+
+        <label for="age">Age </label>
+        <input type="number" id="age" name="age" min="0" max="100" width="100px" required placeholder="your_age">
+        <br><br>
+
+        <label for="country">Country </label>
+        <select id="country" name="country" required>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+            <option value="Australia">Australia</option>
+        </select>
+                 <label for="car">Cars</label>
+        <select id="car" name="car" required>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+                </select>
+        <br><br>
+        <label for="date">Date of Birth </label>
+        <input type="date" id="date" name="date" required>
+        <br><br>
+
+            <label>uploading</label>
+        <input type="file" id="file" name="" accept=".jpg, .jpeg, .png, .gif" required>
+        <br><br>
+
+        <input style = "color: rgb(230,230,230); background-color: rgb(50,50,50);padding: 5px 15px;border-radius: 8px;" type="submit" value="Submit">
+        <input  style = "color: rgb(230,230,230); background-color: rgb(50,50,50);padding: 5px 15px;border-radius: 8px;" type="reset" value="Reset">
+        </fieldset>
+    </form>
+</body>
+
+</html>
